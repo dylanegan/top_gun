@@ -9,4 +9,8 @@ module TopGun
   def self.take_my_breath_away
     `say -v Victoria -f #{LYRICS_DIR}/take_my_breath_away.txt`
   end
+
+  def self.playing_with_the_boys
+    `say -f #{LYRICS_DIR}/playing_with_the_boys.txt`
+  end
 end
