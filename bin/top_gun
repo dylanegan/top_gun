@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'top_gun'
+
+case ARGV[0]
+when "danger_zone", "take_my_breath_away"
+  TopGun.send(ARGV[0])
+when "berlin"
+  TopGun.take_my_breath_away
+else
+  TopGun.danger_zone
+end
