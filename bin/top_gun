@@ -7,6 +7,10 @@ when "danger_zone", "take_my_breath_away"
   TopGun.send(ARGV[0])
 when "berlin"
   TopGun.take_my_breath_away
+when "goose"
+  TopGun.goose
+when "mav"
+  TopGun.mav
 else
   TopGun.danger_zone
 end
